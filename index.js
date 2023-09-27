@@ -1,7 +1,7 @@
 const express = require("express")
 const bodyParser = require("body-parser")
 const cors = require("cors")
-const user_route = require("./routes/user_route")
+const user_route = require("./routes/userRoute")
 const sqlz = require("./util/database")
 
 const PORT = process.env.PORT || 5000
